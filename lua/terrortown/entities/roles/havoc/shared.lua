@@ -3,8 +3,8 @@
 if SERVER then
 	AddCSLuaFile()
 
-	resource.AddFile("materials/vgui/ttt/dynamic/roles/icon_jani.vmt")
-	resource.AddFile("materials/vgui/ttt/icon_jani.vmt")
+	resource.AddFile("materials/vgui/ttt/dynamic/roles/icon_havoc.vmt")
+	resource.AddFile("materials/vgui/ttt/icon_havoc.vmt")
 end
 
 -- General settings
@@ -12,7 +12,7 @@ end
 function ROLE:PreInitialize()
 	self.color = Color(346, 087, 064, 255) -- rolecolour
 
-	self.abbr = "jani" -- Abbreviation
+	self.abbr = "havoc" -- Abbreviation
 	self.unknownTeam = false -- No teamchat
 	self.defaultTeam = TEAM_TRAITOR -- the starting team of this role.
 	self.preventFindCredits = true
@@ -27,8 +27,8 @@ function ROLE:PreInitialize()
 		pct = 0.17, -- necessary: percentage of getting this role selected (per player)
 		maximum = 1, -- maximum amount of roles in a round
 		minPlayers = 7, -- minimum amount of players until this role is able to get selected
-        	credits = 0, -- the starting credits of a specific role
-        	traitorButton = 1, -- can use traitor buttons
+        credits = 0, -- the starting credits of a specific role
+        traitorButton = 1, -- can use traitor buttons
 		shopFallback = SHOP_DISABLED,
 		togglable = true, -- option to toggle a role for a client if possible (F1 menu)
 		random = 33
