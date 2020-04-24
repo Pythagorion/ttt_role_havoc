@@ -52,7 +52,7 @@ end
 -- Add Cleaned mechanic triggers | TBA
     -- First trigger -> The Janitor kills a player | TBA
     -- Second trigger -> The Janitor searches an unconfirmed dead body. | TBA
-    -- Add an exception for covert search [ALt+UseKey]  | TBA
+    -- Add an exception for covert search [ALt+UseKey] (Should be a convar after discussing it. Can be added at a later date.)  | TBA
 -- More Stuff about the Janitor | TBA
     -- The Janitor can confirm bodies that were cleaned. *showing them as cleaned, obviously*. So the first "confirm" cleans it, the second one confirms it. | TBA
     -- Add a HUD element to track how many cleaned bodies have been found | TBA
