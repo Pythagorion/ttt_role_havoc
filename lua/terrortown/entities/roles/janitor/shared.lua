@@ -10,7 +10,7 @@ end
 -- General settings
 
 function ROLE:PreInitialize()
-	self.color = Color(255, 000, 000, 255) -- rolecolour
+	self.color = Color(346, 087, 064, 255) -- rolecolour
 
 	self.abbr = "jani" -- Abbreviation
 	self.unknownTeam = false -- No teamchat
@@ -27,8 +27,8 @@ function ROLE:PreInitialize()
 		pct = 0.17, -- necessary: percentage of getting this role selected (per player)
 		maximum = 1, -- maximum amount of roles in a round
 		minPlayers = 7, -- minimum amount of players until this role is able to get selected
-        credits = 0, -- the starting credits of a specific role
-        traitorButton = 1, -- can use traitor buttons
+        	credits = 0, -- the starting credits of a specific role
+        	traitorButton = 1, -- can use traitor buttons
 		shopFallback = SHOP_DISABLED,
 		togglable = true, -- option to toggle a role for a client if possible (F1 menu)
 		random = 33
