@@ -13,12 +13,12 @@ function ROLE:PreInitialize()
 	self.color = Color(255, 000, 000, 255) -- rolecolour
 
 	self.abbr = "jani" -- Abbreviation
-	self.unknownTeam = true -- No teamchat
+	self.unknownTeam = false -- No teamchat
 	self.defaultTeam = TEAM_TRAITOR -- the starting team of this role.
 	self.preventFindCredits = true
 	self.preventKillCredits = true
 	self.preventTraitorAloneCredits = true
-	self.preventWin = true -- cannot win unless he switches roles
+	self.preventWin = false -- cannot win unless he switches roles
 	self.scoreKillsMultiplier       = 5
 	self.scoreTeamKillsMultiplier   = -16
 
