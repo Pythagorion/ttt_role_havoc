@@ -1,2 +1,2 @@
-# ttt_role_jani
- Adds the janitor to TTT2
+# ttt_role_havoc
+ Adds the havoc to TTT2
