@@ -40,25 +40,24 @@ end
 -- todo --
 -- Roadmap sorta thing --
 -- Add "cleaned" mechanic
-    -- Cleaned mechanic includes| TBA
-        -- Erase information when opening the body search. | TBA
-            -- This includes stuff like "last seen player", "time passed till death", "Killed by weapon [weapon]", "Playername", "Playerrole" etc. | TBA
-            -- add a new information panel saying "This player was cleaned by a Janitor, no information about them could be recovered." | TBA
-        -- New confirmation message | TBA
-            -- Do not show who the body found belonged to | TBA
-            -- Do not show what role the found body had | TBA
+    -- Cleaned mechanic includes| To be Dones
+        -- Erase information when opening the body search. | To be Done
+            -- This includes stuff like "last seen player", "time passed till death", "Killed by weapon [weapon]", "Playername", "Playerrole" etc. | To be Done
+            -- add a new information panel saying "This player was cleaned by a Janitor, no information about them could be recovered." | To be Done
+        -- New confirmation message | To be Done
+            -- Do not show who the body found belonged to | To be Done
+            -- Do not show what role the found body had | To be Done
             -- In the scoreboard, the player will show as alive//MIA(for T's) even if confirmed as cleaned.
-            -- Instead show a message saying something like "[Player confirming] found a dead body. However, they were cleaned." Message in Jani color? | TBA
--- Add Cleaned mechanic triggers | TBA
-    -- First trigger -> The Janitor kills a player | TBA
-    -- Second trigger -> The Janitor searches an unconfirmed dead body. | TBA
-    -- Add an exception for covert search [ALt+UseKey] (Should be a convar after discussing it. Can be added at a later date.)  | TBA
--- More Stuff about the Janitor | TBA
-    -- The Janitor can confirm bodies that were cleaned. *showing them as cleaned, obviously*. So the first "confirm" cleans it, the second one confirms it. | TBA
-    -- Add a HUD element to track how many cleaned bodies have been found | TBA
--- MISC stuff that can be added WAY later. | TBA
-    -- Disable any form of revival on a cleaned corpse. (Marker//Necro and regular defis) | TBA
-    -- The Amnesiac can/cannot (convar) remember a cleaned bodies role | TBA
-    -- The DNA Scanner cannot take DNA from a cleaned body. | TBA
- 
+            -- Instead show a message saying something like "[Player confirming] found a dead body. However, they were cleaned." Message in Jani color? | To be Done
+-- Add Cleaned mechanic triggers | To be Done
+    -- First trigger -> The Janitor kills a player | To be Done
+    -- Second trigger -> The Janitor searches an unconfirmed dead body. | To be Done
+    -- Add an exception for covert search [ALt+UseKey] (Should be a convar after discussing it. Can be added at a later date.)  | To be Done
+-- More Stuff about the Janitor | To be Done
+    -- The Janitor can confirm bodies that were cleaned. *showing them as cleaned, obviously*. So the first "confirm" cleans it, the second one confirms it. | To be Done
+    -- Add a HUD element to track how many cleaned bodies have been found | To be Done
+-- MISC stuff that can be added WAY later. | To be Done
+    -- Disable any form of revival on a cleaned corpse. (Marker//Necro and regular defis) | To be Done
+    -- The Amnesiac can/cannot (convar) remember a cleaned bodies role | To be Done
+    -- The DNA Scanner cannot take DNA from a cleaned body. | To be Done
 
